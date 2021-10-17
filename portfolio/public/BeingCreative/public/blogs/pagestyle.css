@@ -1,0 +1,162 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+.t
+{
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #022534;
+    font-size: 18px;
+
+}
+
+q{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+#body{
+    background-color: #022534;
+}
+#page{
+    background-color: #e4f5ff;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+h1{
+    color:#094f6e;
+    font-family: 'Fjalla One', sans-serif;
+}
+h2{
+    color: #2d7a9c;
+    font-family: 'Fjalla One', sans-serif;
+}
+img{
+justify-content: center;
+}
+
+#comment{
+    padding-top: 50px;
+    color: white;
+}
+#comment h1{
+    color: white !important;
+}
+
+#news{
+    color: #e4f5ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+.email-box{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.email-box i{
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding-right: 10px;
+    color: #022534;
+    
+}
+.tbox, .btn{
+    border: none;
+    outline: none;
+}
+.tbox{
+    width: 200px;
+    padding: 0 10px;
+}
+.btn{
+    background-color: #e4f5ff;
+    color: #022534;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.headoffice{
+    background-color: #e4f5ff;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    padding-left: 10px;
+    display: inline-block;    
+}
+.headoffice h2,p{
+    color: #022534;
+    
+}
+.useful{
+    background-color:  #e4f5ff;
+    display: inline-block;
+}
+
+.link2{
+    width: 300px;
+    height: 1px;
+    background-color:grey;
+    display: inline-block;
+}
+.link3{
+    width: 30px;
+    height: 2px;
+    background-color: #022534;
+    display: inline-block;   
+}
+.gotop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #2d7a9c;
+    bottom: 20px;
+    right: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #e4f5ff;
+    font-size: 22px;
+}
+.card{
+    margin-top: 10px;
+}
+@media only screen and (max-width:996px){
+    
+    #page{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        padding: 10 30px 0 30px !important;
+    }
+    #img{
+        width: 100%;
+    }
+    .card{
+        width: 100% !important;
+
+    }
+    #comment textarea{
+        width: 100%;
+    }
+    .headoffice{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1500px){
+#img{
+    width: 100%;
+}
+
+@media only screen and (max-width:2000px){
+#img{
+    width: 100%;
+}
+
+}
+

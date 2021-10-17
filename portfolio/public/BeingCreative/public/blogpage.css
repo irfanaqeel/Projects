@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.gotop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #2d7a9c;
+    bottom: 20px;
+    right: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #e4f5ff;
+    font-size: 22px;
+}
+#navbar{
+    background-color: #e4f5ff !important;
+    color:#022534;
+
+}
+.nav-link{
+    color: #303c6c !important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: 1px ;
+     
+}
+.blog{
+    background-color: #e4f5ff;
+    text-align: center;
+    color: #022534;
+    font-family: 'DM mono', monospace;
+    font-size: 30px;
+    padding: 20px 0 20px 0;
+    font-weight: bold;
+}
+#card{
+    padding-top: 70px !important;
+    padding-bottom: 50px !important;
+    background-color: #e4f5ff;
+
+}
+.card {
+    margin-bottom: 20px !important;
+    background-color: #e4f5ff;
+}
+
+}
+.headoffice{
+    background-color: #022534;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    padding-left: 10px;
+    display: inline-block;    
+}
+.headoffice h2,p{
+    color: #eff5ff;
+    
+}
+.useful{
+    background-color:  #022534;
+    display: inline-block;
+}
+
+.link2{
+    width: 300px;
+    height: 1px;
+    background-color:grey;
+    display: inline-block;
+}
+.link3{
+    width: 30px;
+    height: 2px;
+    background-color: #e4f5ff;
+    display: inline-block;   
+}
+.blackend{
+    background-color: #f8e9a1;
+    display: flex;
+    flex-wrap: wrap;
+}
+#news{
+    color: #24305e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+.email-box{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.email-box i{
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding-right: 10px;
+    color: #e4f5ff;
+    
+}
+.tbox, .btn{
+    border: none;
+    outline: none;
+}
+.tbox{
+    width: 200px;
+    padding: 0 10px;
+}
+.btn{
+    background-color: #022534;
+    color: #e4f5ff;
+    padding: 0 10px;
+    cursor: pointer;
+}
+@media only screen and (max-width : 800px){
+    #img{
+        height: 100%;
+    }
+    #lastcrd{
+        width: 20rem;
+    }
+}
+@media only screen and (max-width : 1000px){
+    #lastcrd{
+        width: 22rem;
+    }
+}
+@media only screen and (max-width:500px){
+    #ct{
+       height: 50px;
+   }
+}

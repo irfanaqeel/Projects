@@ -1,0 +1,184 @@
+*{
+    scroll-behavior: smooth;
+}
+.gotop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #2d7a9c;
+    bottom: 20px;
+    right: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #e4f5ff;
+    font-size: 22px;
+}
+#navbar{
+    background-color: #e4f5ff !important;
+    color:#022534;
+
+}
+.nav-link{
+    color: #303c6c !important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: 1px ;
+     
+}
+.blog{
+    background-color: #e4f5ff;
+    text-align: center;
+    color: #022534;
+    font-family: 'DM mono', monospace;
+    font-size: 30px;
+    padding: 20px 0 20px 0;
+    font-weight: bold;
+}
+#news{
+    color: #24305e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+.email-box{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.email-box i{
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding-right: 10px;
+    color: #e4f5ff;
+    
+}
+.tbox, .btn{
+    border: none;
+    outline: none;
+}
+.tbox{
+    width: 200px;
+    padding: 0 10px;
+}
+.btn{
+    background-color: #022534;
+    color: #e4f5ff;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.headoffice{
+    background-color: #022534;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    padding-left: 10px;
+    display: inline-block;    
+}
+.headoffice h2,p{
+    color: #eff5ff;
+    
+}
+.useful{
+    background-color:  #022534;
+    display: inline-block;
+}
+
+.link2{
+    width: 300px;
+    height: 1px;
+    background-color:grey;
+    display: inline-block;
+}
+.link3{
+    width: 30px;
+    height: 2px;
+    background-color: #e4f5ff;
+    display: inline-block;   
+}
+.body{
+    
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+    
+    padding: 50px 10px 50px 10px;
+    
+}
+.gallery{
+
+    margin-bottom: 10px;
+    padding: 0 10px 0 10px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.des{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #e4f5ff;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #022534;
+}
+.des1{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #e4f5ff;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #022534;
+}
+.responsive{
+
+    
+width: 25%;
+}
+
+@media only screen and (max-width:900px){
+    .responsive{
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width:700px){
+    .responsive{
+        width: 50%;
+        margin: 6px 0;
+    }
+    .thwall{
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .responsive{
+        width: 100%;
+    }
+    .gallery img{
+        height: 350px;
+    }
+}
+@media only screen and (max-width:300px){
+    .useful, .news{
+        width: 100%;
+    }
+    .email-box{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width:500px){
+    #ct{
+       height: 50px;
+    }
+}
